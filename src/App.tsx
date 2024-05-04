@@ -1,6 +1,10 @@
 // import Joke from './components/useExampleOne/Joke';
 
-import Theme from './components/useExampleContext/Theme';
+// import ShoppingCart from './components/actionExampleTwo/ShoppingCart';
+
+// import Posts from './components/actionExampleOne/Posts';
+
+// import Theme from './components/useExampleContext/Theme';
 
 // import Message from './components/useExampleThree/Message';
 
@@ -8,13 +12,15 @@ import Theme from './components/useExampleContext/Theme';
 
 const App = () => {
     return (
-        <div className="m-auto w-max max-w-[1440px] p-4">
+        <div className="m-auto w-full max-w-[1440px] p-4">
             {/* <JokeUseEffect /> */}
             {/* <Joke /> */}
             {/* <PostsUseEffect /> */}
             {/* <Posts /> */}
             {/* <Message /> */}
-            <Theme />
+            {/* <Theme /> */}
+            {/* <Posts /> */}
+            {/* <ShoppingCart /> */}
         </div>
     );
 };
