@@ -1,5 +1,7 @@
 // import Joke from './components/useExampleOne/Joke';
 
+import Posts from './components/useFormStatusExample/Posts';
+
 // import ShoppingCart from './components/actionExampleTwo/ShoppingCart';
 
 // import Posts from './components/actionExampleOne/Posts';
@@ -21,6 +23,7 @@ const App = () => {
             {/* <Theme /> */}
             {/* <Posts /> */}
             {/* <ShoppingCart /> */}
+            <Posts />
         </div>
     );
 };
