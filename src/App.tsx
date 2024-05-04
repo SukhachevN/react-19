@@ -1,6 +1,8 @@
 // import Joke from './components/useExampleOne/Joke';
 
-import Posts from './components/useFormStatusExample/Posts';
+import AddToCartForm from './components/useFormStateExample/AddToCartForm';
+
+// import Posts from './components/useFormStatusExample/Posts';
 
 // import ShoppingCart from './components/actionExampleTwo/ShoppingCart';
 
@@ -23,7 +25,12 @@ const App = () => {
             {/* <Theme /> */}
             {/* <Posts /> */}
             {/* <ShoppingCart /> */}
-            <Posts />
+            {/* <Posts /> */}
+            <AddToCartForm
+                itemID="1"
+                itemTitle="JavaScript: The Definitive Guide"
+            />
+            <AddToCartForm itemID="2" itemTitle="JavaScript: The Good Parts" />
         </div>
     );
 };
